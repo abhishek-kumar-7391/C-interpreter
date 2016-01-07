@@ -3,9 +3,9 @@ A rudimentry interpreter for C language.
 It allows the user to enter code in C syntax strictly. If there are any
 print statements then only output is shown, otherwise , only compilation
 errors are reported (if any).
-As of now there is no support for escape sequences.
-
-Currently provides/not provides/supports/not supports the following:
+As of now there is no support for escape sequences.            
+                                        
+Currently provides/not provides/supports/not supports the following:                                    
 1. the header files included by default are stdio.h, stdlib.h, string.h. Uptil now there is no way to include another header,
 but it will be coming very soon.          
 2. Readline feature for editing lines. You dont have to delete the entire line in case you want to change something at the beginnig.            
