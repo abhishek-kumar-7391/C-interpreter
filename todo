@@ -1,0 +1,13 @@
+Add functionality to allow the user to include a header file other than the 
+ones that are present by default.
+
+Add tab completion feature for the native commands and if possible, for the
+reserved words of the C language, like "printf", "for", "while" etc.
+
+Allow the user to declare and define methods/functions/routines.
+
+Modularize the code. Break the entire working of the interpreter into modules:
+	1. generation and maintain of temporary files
+	2. generation of C file; to be broken into further module
+		2.1: add header content (header  files, #defines, etc..)
+		2.2: add body. (all except header content)
