@@ -33,8 +33,6 @@ do
 			echo ""
 			;;
 		 *)
-			# count=`grep -c "$input"$ ./temp`
-			# if [ $count -eq 0 ]; then
 				echo $input >> temp
 				generate_c_file "test_code.c"
 				rm -f ./a.out
@@ -46,6 +44,7 @@ do
 						./a.out
 						echo ""
 						echo "******************************"
+						echo ""
 					fi
 					echo $input >> temp.bak
 				else
@@ -54,7 +53,6 @@ do
 					cp -f ./temp.bak ./temp	
 					generate_c_file "test_code.c"
 				fi
-			# fi
 			;;
 	esac
 done
