@@ -9,7 +9,7 @@ Native Commands:
 	Default is "hold-".
 
 "hold-" DEFAULT; pronounced as "hold minus"
-	Do not print the output as soon as a "printf" is encountered, instead wait for the run command.
+	Deactivate the "hold" option. Print the output as soon as a "printf" is encountered. 
 
 "new"	 
 	Starts a new context. The old context is flushed, i.e. all declarations and statements are removed.
