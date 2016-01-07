@@ -13,7 +13,7 @@ Native Commands:
 
 "new"	 
 	Starts a new context. The old context is flushed, i.e. all declarations and statements are removed.
-	The user is always provided with a new context the interpreter is started. If in case the user wants a
+	The user is always provided with a new context when the interpreter is started. If in case the user wants a
 	new context while the interpreter is running, then "new" command can be used.
 
 "run"
