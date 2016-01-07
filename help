@@ -1,0 +1,22 @@
+Input:
+The interpreter only understands two kinds of inputs: native commands or C code.
+Anything other than the native commands is considered to be C code and dealt accordingly.
+
+Native Commands:
+
+"hold"
+	Do not print the output as soon as a "printf" is encountered, instead wait for the run command.
+	Default is "unhold".
+
+"hold-" DEFAULT; pronounced as "hold minus"
+	Do not print the output as soon as a "printf" is encountered, instead wait for the run command.
+
+"new"	 
+	Starts a new context. The old context is flushed, i.e. all declarations and statements are removed.
+	The user is always provided with a new context the interpreter is started. If in case the user wants a
+	new context while the interpreter is running, then "new" command can be used.
+
+"run"
+	Run you program at any point of time.
+	Whether the interpreter is on "hold" or "hold-", you can always use this command to see the output of the
+	latest code.
