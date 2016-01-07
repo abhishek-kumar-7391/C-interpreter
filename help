@@ -6,7 +6,7 @@ Native Commands:
 
 "hold"
 	Do not print the output as soon as a "printf" is encountered, instead wait for the run command.
-	Default is "unhold".
+	Default is "hold-".
 
 "hold-" DEFAULT; pronounced as "hold minus"
 	Do not print the output as soon as a "printf" is encountered, instead wait for the run command.
