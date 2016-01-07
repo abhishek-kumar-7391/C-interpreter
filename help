@@ -20,3 +20,6 @@ Native Commands:
 	Run you program at any point of time.
 	Whether the interpreter is on "hold" or "hold-", you can always use this command to see the output of the
 	latest code.
+
+"exit"|"close"|"quit"
+	Any one of these commands can be used to close the interpreter.
