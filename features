@@ -15,7 +15,6 @@ In case if something goes wrong and you get an error report on comilation, then 
 5. There is no support for writing functions, as of now its like everything is inside "main" method.        
 6. It does not provide any tab completion features (look for a mathching a command on pressing tab), thus one has to write a complete command.
 
-
 Additional Info:
 It does not save a context, thus everything is temporary and is lost as soon as you close the interpreter.
 For beginners who are new to C programming, this might be a good learning tool.
