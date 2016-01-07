@@ -1,10 +1,14 @@
-Add functionality to allow the user to include a header file other than the 
-ones that are present by default.
+Add functionality to allow the user to include a standard header file other than the 
+ones that are present by default (stdio.h, string.h, stdlib.h). 
+And not only the standard headers, the user should also be able to include local header files.
 
 Add tab completion feature for the native commands and if possible, for the
 reserved words of the C language, like "printf", "for", "while" etc.
 
 Allow the user to declare and define methods/functions/routines.
+Allow the user to provide compile time options like flags, include path
+Allow the user to save the source generated in some filename provided by the user or some default.
+Allow the user to load some saved source and view it on the interpreter.
 
 Modularize the code. Break the entire working of the interpreter into modules:
 	1. generation and maintain of temporary files
